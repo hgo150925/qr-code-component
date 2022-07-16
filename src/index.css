@@ -28,32 +28,30 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-@media only screen and (min-width: 1440px) {
-  .card__img {
-    border-radius: 1rem;
-    width: 28rem;
-  }
-  .card {
-    background-color: var(--white);
-    border-radius: 1.5rem;
-    max-width: 32rem;
-    max-height: 49.5rem;
-    margin: 15rem auto;
-    padding: 1.8rem;
-  }
-  .card__text {
-    padding: 1.8rem;
-  }
-  .card__text p {
-    color: var(--grayish-blue);
-    font-size: 1.5rem;
-    margin: 2rem 0 0 0;
-    text-align: center;
-  }
-  .card__text--title {
-    color: var(--dark-blue);
-    font-size: 2.2rem;
-    font-weight: 700;
-    width: 26rem;
-  }
+.card__img {
+  border-radius: 1rem;
+  width: 28rem;
+}
+.card {
+  background-color: var(--white);
+  border-radius: 1.5rem;
+  max-width: 32rem;
+  max-height: 49.5rem;
+  margin: 15rem auto;
+  padding: 1.8rem;
+}
+.card__text {
+  padding: 1.8rem;
+}
+.card__text p {
+  color: var(--grayish-blue);
+  font-size: 1.5rem;
+  margin: 2rem 0 0 0;
+  text-align: center;
+}
+.card__text--title {
+  color: var(--dark-blue);
+  font-size: 2.2rem;
+  font-weight: 700;
+  width: 26rem;
 }
