@@ -1,34 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import qrCodeImg from "../src/assets/images/image-qr-code.png";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+    <div className="card">
+      <img className="card__img" src={qrCodeImg} alt="" />
+      <div className="card__text">
+        <h1 className="card__text--title">
+          Improve your front-end skills by building projects
+        </h1>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
